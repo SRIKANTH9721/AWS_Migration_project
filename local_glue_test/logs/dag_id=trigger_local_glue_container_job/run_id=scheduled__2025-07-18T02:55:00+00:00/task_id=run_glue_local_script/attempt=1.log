@@ -1,0 +1,9 @@
+{"timestamp":"2025-07-18T03:01:38.152845","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-18T03:01:38.569964","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/srikanth_py_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-18T03:01:42.336156Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-18T03:01:42.338475Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-18T03:01:42.339710Z","level":"info","event":"Current task name:run_glue_local_script","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-18T03:01:42.340102Z","level":"info","event":"Dag name:trigger_local_glue_container_job","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-18T03:01:41.341412","level":"info","event":"Tmp dir root location: /tmp","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook"}
+{"timestamp":"2025-07-18T03:01:41.573114","level":"info","event":"Running command: ['/usr/bin/bash', '-c', 'docker exec glue spark-submit /home/hadoop/workspace/sri_glue_script.py']","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook"}
+{"timestamp":"2025-07-18T03:01:42.144488","level":"info","event":"Output:","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook"}

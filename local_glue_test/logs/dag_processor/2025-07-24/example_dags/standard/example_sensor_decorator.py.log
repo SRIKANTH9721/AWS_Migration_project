@@ -1,0 +1,4 @@
+{"timestamp":"2025-07-24T20:31:33.677818","level":"info","event":"Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/standard/example_sensor_decorator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-24T20:32:11.771805","level":"info","event":"Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/standard/example_sensor_decorator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-24T20:32:57.743458","level":"info","event":"Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/standard/example_sensor_decorator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-24T20:36:46.251469","level":"info","event":"Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/standard/example_sensor_decorator.py","logger":"airflow.models.dagbag.DagBag"}

@@ -1,0 +1,21 @@
+version: '3.8'
+name: srikanth-local-glue
+
+services:
+  glue:
+    image: amazon/aws-glue-libs:5
+    container_name: glue
+    stdin_open: true       # same as -it (interactive)
+    tty: true              # keep TTY open
+    environment:
+      AWS_PROFILE: default
+    volumes:
+      - ~/.aws:/home/hadoop/.aws
+      - ./srikanth_glue_workspace:/home/hadoop/workspace/
+    networks:
+      - srikanth-network
+    entrypoint: sleep infinity
+
+networks:
+  srikanth-network:
+    driver: bridge
